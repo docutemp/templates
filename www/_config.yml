@@ -1,0 +1,11 @@
+title: "{domain}"
+description: "Website {domain} on repository {repository} for {organization}"
+mermaid:
+  src: "mermaid.js"
+plugins:
+  - "jekyll-github-metadata"  
+  - "jekyll-readme-index"
+readme_index:
+  enabled:          true
+  remove_originals: false
+  with_frontmatter: false
